@@ -1,0 +1,15 @@
+.spinner {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347; /* Tomato color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the element */
+    animation: rotate 2s linear infinite; /* Apply animation */
+}
+
+@keyframes rotate {
+    0% { transform: translate(-50%, -50%) rotate(0deg); } /* Start position */
+    100% { transform: translate(-50%, -50%) rotate(360deg); } /* End position */
+}

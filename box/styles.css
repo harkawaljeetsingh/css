@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff; /* Blue color */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    animation: moveRight 4s linear infinite; /* Apply animation */
+}
+
+/* Keyframes for the animation */
+@keyframes moveRight {
+    0% { left: 0; } /* Start position */
+    100% { left: calc(100% - 100px); } /* End position */
+}

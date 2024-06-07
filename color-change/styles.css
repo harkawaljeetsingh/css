@@ -1,0 +1,16 @@
+.color-change {
+    width: 200px;
+    height: 200px;
+    background-color: #007bff; /* Initial background color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the element */
+    animation: changeColor 5s infinite; /* Apply animation */
+}
+
+@keyframes changeColor {
+    0% { background-color: #007bff; } /* Start color (blue) */
+    50% { background-color: #ff6347; } /* Middle color (tomato) */
+    100% { background-color: #32cd32; } /* End color (lime green) */
+}
